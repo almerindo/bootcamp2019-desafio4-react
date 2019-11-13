@@ -1,10 +1,9 @@
 import styled from 'styled-components';
 
-import { AccountCircle } from 'styled-icons/material/AccountCircle';
+import { AccountCircle } from 'styled-icons/material';
 
 export const RedAccount = styled(AccountCircle)`
-  color: red;
-  fill: red;
+  height: 24px;
 `;
 
 export const FaceNav = styled.nav`
@@ -15,7 +14,7 @@ export const FaceNav = styled.nav`
   height: 64px;
   padding: 0 42px;
   color: #fff;
-  min-width: 980px;
+  min-width: 400px;
   font-size: 14px;
   img {
     height: 24px;

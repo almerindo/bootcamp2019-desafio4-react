@@ -1,13 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-function Post() {
-  return (
-    <div className="post">
-      <PostHeader author={author} date={date} />
-      <p className="post-content">{content}</p>
-      <PostComments comments={comments} />
-    </div>
-  );
+class Post extends Component {
+  render() {
+    return <div className="post" />;
+  }
 }
 
 export default Post;

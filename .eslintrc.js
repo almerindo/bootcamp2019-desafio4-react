@@ -26,6 +26,8 @@ module.exports = {
   ],
   rules: {
     'prettier/prettier' :'error',
+    "react/state-in-constructor": [0, "never"],
+    "react/prefer-stateless-function": [0, { "ignorePureComponents":  false}],
     'react/jsx-filename-extension': [
       'warn',
       {extensions:['.jsx', '.js']}

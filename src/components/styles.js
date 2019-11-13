@@ -1,5 +1,12 @@
 import styled from 'styled-components';
 
+import { AccountCircle } from 'styled-icons/material/AccountCircle';
+
+export const RedAccount = styled(AccountCircle)`
+  color: red;
+  fill: red;
+`;
+
 export const FaceNav = styled.nav`
   background-color: #4a90e2;
   display: flex;

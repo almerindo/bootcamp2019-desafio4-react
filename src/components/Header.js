@@ -1,5 +1,6 @@
 import React from 'react';
-import { FaceNav } from './styles';
+
+import { FaceNav, RedAccount } from './styles';
 
 function Header() {
   return (
@@ -8,7 +9,10 @@ function Header() {
         <img alt="logoFace" src="../face.png" />
         <div>
           <span>Meu perfil</span>
-          <i className="material-icons">account_circle</i>
+
+          <i className="material-icons">
+            <RedAccount />
+          </i>
         </div>
       </FaceNav>
     </header>

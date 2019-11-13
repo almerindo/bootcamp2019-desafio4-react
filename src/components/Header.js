@@ -1,20 +1,16 @@
 import React from 'react';
+import { FaceNav } from './styles';
 
-function Header() {
+function Header(props) {
   return (
     <header>
-      <nav>
-        <img
-          width="100px"
-          height="100px"
-          alt="logoFace"
-          src="../../public/face.png"
-        />
+      <FaceNav>
+        <img alt="logoFace" src="../face.png" />
         <div>
-          <span>Meu perfil ;:</span>
+          <span>Meu perfil</span>
           <i className="material-icons">account_circle</i>
         </div>
-      </nav>
+      </FaceNav>
     </header>
   );
 }
